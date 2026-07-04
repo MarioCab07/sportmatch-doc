@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../api/">
+        <link rel="prev" href="..">
       
       
-        <link rel="next" href="../historias-usuario/">
+        <link rel="next" href="../guia-usuario/">
       
       
         
@@ -23,7 +23,7 @@
     
     
       
-        <title>Uso de git - Documentacion SportMatch</title>
+        <title>Instalacion - Documentacion SportMatch</title>
       
     
     
@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#uso-de-git-y-gitflow" class="md-skip">
+        <a href="#instalacion-y-configuracion" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -108,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Uso de git
+              Instalacion
             
           </span>
         </div>
@@ -184,9 +184,11 @@
   
   
   
+    
   
-    <li class="md-tabs__item">
-      <a href="../instalacion/" class="md-tabs__link">
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
         
   
   
@@ -242,13 +244,11 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../uso-git/" class="md-tabs__link">
           
   
   
@@ -343,10 +343,37 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../instalacion/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Instalacion
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -362,6 +389,154 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-previos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Requisitos previos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-clonar-el-repositorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Clonar el repositorio
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-levantar-servicios-de-infraestructura-docker-compose" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Levantar servicios de infraestructura (Docker Compose)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Levantar servicios de infraestructura (Docker Compose)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configurar-el-realm-de-keycloak" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configurar el realm de Keycloak
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-backend-spring-boot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Backend (Spring Boot)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Backend (Spring Boot)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#librerias-clave-del-backend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Librerías clave del backend
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-frontend-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Frontend (React)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Frontend (React)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#librerias-clave-del-frontend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Librerías clave del frontend
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-verificacion-rapida" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Verificación rápida
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documentacion-de-la-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Documentación de la API
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -512,31 +687,26 @@
       
   
   
-    
   
   
-  
     
     
     
     
-      
-        
-        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
             
   
   
@@ -554,7 +724,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
@@ -569,37 +739,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Uso de git
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../uso-git/" class="md-nav__link">
         
   
   
@@ -615,158 +758,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Tabla de contenidos
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#descripcion-general" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Descripción general
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#flujo-de-ramas-utilizado" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Flujo de ramas utilizado
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#representacion-del-flujo-de-trabajo" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Representación del flujo de trabajo
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#convencion-de-nombres-de-ramas" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Convención de nombres de ramas
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ramas-para-historias-de-usuario" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Ramas para historias de usuario
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ramas-para-correcciones" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Ramas para correcciones
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ramas-para-documentacion" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Ramas para documentación
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#proceso-de-trabajo-aplicado" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Proceso de trabajo aplicado
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ejemplo-de-comandos-utilizados" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Ejemplo de comandos utilizados
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#relacion-entre-issues-y-ramas" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Relación entre issues y ramas
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#beneficios-del-flujo-utilizado" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Beneficios del flujo utilizado
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#conclusion" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Conclusión
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -861,10 +852,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#descripcion-general" class="md-nav__link">
+  <a href="#requisitos-previos" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Descripción general
+        Requisitos previos
       
     </span>
   </a>
@@ -872,10 +863,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#flujo-de-ramas-utilizado" class="md-nav__link">
+  <a href="#1-clonar-el-repositorio" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Flujo de ramas utilizado
+        1. Clonar el repositorio
       
     </span>
   </a>
@@ -883,10 +874,94 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#representacion-del-flujo-de-trabajo" class="md-nav__link">
+  <a href="#2-levantar-servicios-de-infraestructura-docker-compose" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Representación del flujo de trabajo
+        2. Levantar servicios de infraestructura (Docker Compose)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Levantar servicios de infraestructura (Docker Compose)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configurar-el-realm-de-keycloak" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configurar el realm de Keycloak
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-backend-spring-boot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Backend (Spring Boot)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Backend (Spring Boot)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#librerias-clave-del-backend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Librerías clave del backend
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-frontend-react" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Frontend (React)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Frontend (React)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#librerias-clave-del-frontend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Librerías clave del frontend
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-verificacion-rapida" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Verificación rápida
       
     </span>
   </a>
@@ -894,98 +969,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#convencion-de-nombres-de-ramas" class="md-nav__link">
+  <a href="#documentacion-de-la-api" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Convención de nombres de ramas
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ramas-para-historias-de-usuario" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Ramas para historias de usuario
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ramas-para-correcciones" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Ramas para correcciones
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ramas-para-documentacion" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Ramas para documentación
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#proceso-de-trabajo-aplicado" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Proceso de trabajo aplicado
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ejemplo-de-comandos-utilizados" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Ejemplo de comandos utilizados
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#relacion-entre-issues-y-ramas" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Relación entre issues y ramas
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#beneficios-del-flujo-utilizado" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Beneficios del flujo utilizado
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#conclusion" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Conclusión
+        Documentación de la API
       
     </span>
   </a>
@@ -1009,193 +996,211 @@
 
 
 
-<h1 id="uso-de-git-y-gitflow">Uso de Git y GitFlow</h1>
-<h2 id="descripcion-general">Descripción general</h2>
-<p>Durante el desarrollo del proyecto se utilizó <strong>Git</strong> como sistema de control de versiones y <strong>GitFlow</strong> como estrategia de organización del trabajo.</p>
-<p>Este flujo permitió mantener una estructura ordenada para el desarrollo, separando la rama estable del proyecto, la rama de desarrollo y las ramas específicas utilizadas para cada historia de usuario, corrección o documentación.</p>
-<p>El objetivo principal fue evitar realizar cambios directamente sobre la rama principal y mantener una relación clara entre los issues, las historias de usuario y las ramas trabajadas por el equipo.</p>
-<hr />
-<h2 id="flujo-de-ramas-utilizado">Flujo de ramas utilizado</h2>
-<p>El flujo de trabajo inició desde la rama principal <code>main</code>, la cual representa la versión estable del proyecto.</p>
-<p>A partir de <code>main</code> se creó la rama <code>develop</code>, utilizada como rama base para integrar los cambios en desarrollo.</p>
-<p>Desde <code>develop</code> se crearon las ramas correspondientes a cada issue o historia de usuario. Al finalizar el trabajo en cada rama, los cambios se integraban nuevamente en <code>develop</code>.</p>
-<p>Finalmente, cuando los cambios ya estaban revisados y validados, se integraban desde <code>develop</code> hacia <code>main</code>.</p>
-<hr />
-<h2 id="representacion-del-flujo-de-trabajo">Representación del flujo de trabajo</h2>
-<pre class="mermaid"><code>gitGraph
-   commit id: "main inicial"
-   branch develop
-   checkout develop
-   commit id: "creacion develop"
-
-   branch feat/hu-01-login
-   checkout feat/hu-01-login
-   commit id: "HU-01 login"
-   checkout develop
-   merge feat/hu-01-login
-
-   branch feat/hu-02-registro
-   checkout feat/hu-02-registro
-   commit id: "HU-02 registro"
-   checkout develop
-   merge feat/hu-02-registro
-
-   branch fix/correccion-login
-   checkout fix/correccion-login
-   commit id: "correccion login"
-   checkout develop
-   merge fix/correccion-login
-
-   branch doc/documentacion-git
-   checkout doc/documentacion-git
-   commit id: "documentacion"
-   checkout develop
-   merge doc/documentacion-git
-
-   checkout main
-   merge develop</code></pre>
-<hr />
-<h2 id="convencion-de-nombres-de-ramas">Convención de nombres de ramas</h2>
-<p>Para mantener una estructura uniforme, se definió una nomenclatura específica para las ramas del proyecto.</p>
+<h1 id="instalacion-y-configuracion">Instalación y Configuración</h1>
+<p>Esta guía permite reproducir el entorno completo de SportMatch en local: backend, frontend, autenticación (Keycloak) y mensajería (RabbitMQ).</p>
+<h2 id="requisitos-previos">Requisitos previos</h2>
 <table>
 <thead>
 <tr>
-<th>Tipo de rama</th>
-<th>Nomenclatura</th>
+<th>Herramienta</th>
+<th>Versión recomendada</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Java (JDK)</td>
+<td>21</td>
+</tr>
+<tr>
+<td>Maven</td>
+<td>3.9+</td>
+</tr>
+<tr>
+<td>Node.js</td>
+<td>20 LTS</td>
+</tr>
+<tr>
+<td>npm</td>
+<td>10+</td>
+</tr>
+<tr>
+<td>Docker + Docker Compose</td>
+<td>24+</td>
+</tr>
+<tr>
+<td>Git</td>
+<td>2.40+</td>
+</tr>
+</tbody>
+</table>
+<h2 id="1-clonar-el-repositorio">1. Clonar el repositorio</h2>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://codeberg.org/&lt;org&gt;/sportmatch.git
+<span class="nb">cd</span><span class="w"> </span>sportmatch
+</code></pre></div>
+<h2 id="2-levantar-servicios-de-infraestructura-docker-compose">2. Levantar servicios de infraestructura (Docker Compose)</h2>
+<p>Keycloak y RabbitMQ se levantan como contenedores.</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># docker-compose.yml (raíz del proyecto)</span>
+<span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;3.8&quot;</span>
+<span class="nt">services</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">keycloak</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">quay.io/keycloak/keycloak:25.0</span>
+<span class="w">    </span><span class="nt">command</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">start-dev</span>
+<span class="w">    </span><span class="nt">environment</span><span class="p">:</span>
+<span class="w">      </span><span class="nt">KEYCLOAK_ADMIN</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">admin</span>
+<span class="w">      </span><span class="nt">KEYCLOAK_ADMIN_PASSWORD</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">admin</span>
+<span class="w">    </span><span class="nt">ports</span><span class="p">:</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;9090:8080&quot;</span>
+
+<span class="w">  </span><span class="nt">rabbitmq</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">rabbitmq:3.13-management</span>
+<span class="w">    </span><span class="nt">ports</span><span class="p">:</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;5672:5672&quot;</span><span class="w">   </span><span class="c1"># AMQP</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;15672:15672&quot;</span><span class="w"> </span><span class="c1"># Panel de administración</span>
+<span class="w">    </span><span class="nt">environment</span><span class="p">:</span>
+<span class="w">      </span><span class="nt">RABBITMQ_DEFAULT_USER</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">guest</span>
+<span class="w">      </span><span class="nt">RABBITMQ_DEFAULT_PASS</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">guest</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>docker<span class="w"> </span>compose<span class="w"> </span>up<span class="w"> </span>-d
+</code></pre></div>
+<ul>
+<li>Keycloak admin: http://localhost:8081 (admin/admin)</li>
+<li>RabbitMQ panel: http://localhost:15672 (guest/guest)</li>
+</ul>
+<h3 id="configurar-el-realm-de-keycloak">Configurar el realm de Keycloak</h3>
+<ol>
+<li>Entra al panel de administración de Keycloak.</li>
+<li>Crea un realm llamado <code>sportmatch</code>.</li>
+<li>Crea un cliente <code>sportmatch-frontend</code> con:</li>
+<li>Access Type: <code>public</code></li>
+<li>Valid Redirect URIs: <code>http://localhost:3000/*</code></li>
+<li>Web Origins: <code>http://localhost:3000</code></li>
+<li>Crea al menos un usuario de prueba con contraseña temporal.</li>
+</ol>
+<h2 id="3-backend-spring-boot">3. Backend (Spring Boot)</h2>
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>backend
+</code></pre></div>
+<p>Configura <code>src/main/resources/application.properties</code>:</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># Base de datos</span>
+<span class="na">spring.datasource.url</span><span class="o">=</span><span class="s">jdbc:postgresql://localhost:5432/sportmatch</span>
+<span class="na">spring.datasource.username</span><span class="o">=</span><span class="s">sportmatch</span>
+<span class="na">spring.datasource.password</span><span class="o">=</span><span class="s">sportmatch</span>
+
+<span class="c1"># Keycloak / OAuth2 Resource Server</span>
+<span class="na">spring.security.oauth2.resourceserver.jwt.issuer-uri</span><span class="o">=</span><span class="s">http://localhost:8081/realms/sportmatch</span>
+
+<span class="c1"># RabbitMQ</span>
+<span class="na">spring.rabbitmq.host</span><span class="o">=</span><span class="s">localhost</span>
+<span class="na">spring.rabbitmq.port</span><span class="o">=</span><span class="s">5672</span>
+<span class="na">spring.rabbitmq.username</span><span class="o">=</span><span class="s">guest</span>
+<span class="na">spring.rabbitmq.password</span><span class="o">=</span><span class="s">guest</span>
+</code></pre></div>
+<p>Ejecutar:</p>
+<div class="highlight"><pre><span></span><code>mvn<span class="w"> </span>clean<span class="w"> </span>install
+mvn<span class="w"> </span>spring-boot:run
+</code></pre></div>
+<p>El backend queda disponible en <code>http://localhost:8080</code>.</p>
+<h3 id="librerias-clave-del-backend">Librerías clave del backend</h3>
+<table>
+<thead>
+<tr>
+<th>Librería</th>
+<th>Versión</th>
 <th>Uso</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Funcionalidad</td>
-<td><code>feat/hu-xx-nombre</code></td>
-<td>Desarrollo de historias de usuario o nuevas funcionalidades</td>
+<td>Spring Boot</td>
+<td>3.3.x</td>
+<td>Framework base</td>
 </tr>
 <tr>
-<td>Corrección</td>
-<td><code>fix/nombre-correccion</code></td>
-<td>Solución de errores encontrados durante el desarrollo</td>
+<td>Spring Security (OAuth2 Resource Server)</td>
+<td>3.3.x</td>
+<td>Validación JWT con Keycloak</td>
 </tr>
 <tr>
-<td>Documentación</td>
-<td><code>doc/nombre-documentacion</code></td>
-<td>Cambios relacionados con documentación del proyecto</td>
+<td>Spring AMQP</td>
+<td>3.1.x</td>
+<td>Integración con RabbitMQ</td>
+</tr>
+<tr>
+<td>Spring WebSocket</td>
+<td>3.3.x</td>
+<td>Notificaciones en tiempo real (STOMP)</td>
+</tr>
+<tr>
+<td>springdoc-openapi</td>
+<td>2.6.0</td>
+<td>Generación de documentación de API</td>
 </tr>
 </tbody>
 </table>
-<hr />
-<h2 id="ramas-para-historias-de-usuario">Ramas para historias de usuario</h2>
-<p>Para cada historia de usuario se creó una rama independiente desde <code>develop</code>.</p>
-<p>La nomenclatura utilizada fue:</p>
-<div class="highlight"><pre><span></span><code>feat/hu-xx-nombre
+<h2 id="4-frontend-react">4. Frontend (React)</h2>
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>frontend
+npm<span class="w"> </span>install
 </code></pre></div>
-<p>Donde:</p>
-<ul>
-<li><code>feat</code> indica que la rama corresponde a una nueva funcionalidad.</li>
-<li><code>hu</code> hace referencia a historia de usuario.</li>
-<li><code>xx</code> representa el número de la historia de usuario.</li>
-<li><code>nombre</code> describe brevemente la funcionalidad trabajada.</li>
-</ul>
-<p>Ejemplo:</p>
-<div class="highlight"><pre><span></span><code>feat/hu-01-inicio-sesion
-feat/hu-02-registro-usuario
-feat/hu-03-gestion-reservas
+<p>Configura <code>.env</code>:</p>
+<div class="highlight"><pre><span></span><code>VITE_API_BASE_URL=http://localhost:8080
+VITE_KEYCLOAK_URL=http://localhost:8081
+VITE_KEYCLOAK_REALM=sportmatch
+VITE_KEYCLOAK_CLIENT_ID=sportmatch-frontend
 </code></pre></div>
-<hr />
-<h2 id="ramas-para-correcciones">Ramas para correcciones</h2>
-<p>Cuando se detectaba un error o comportamiento incorrecto en el sistema, se creaba una rama de corrección utilizando el prefijo <code>fix/</code>.</p>
-<p>La nomenclatura utilizada fue:</p>
-<div class="highlight"><pre><span></span><code>fix/nombre-correccion
+<p>Ejecutar:</p>
+<div class="highlight"><pre><span></span><code>npm<span class="w"> </span>run<span class="w"> </span>dev
 </code></pre></div>
-<p>Ejemplo:</p>
-<div class="highlight"><pre><span></span><code>fix/error-validacion-formulario
-fix/correccion-login
-fix/correccion-rutas
-</code></pre></div>
-<p>Estas ramas permitieron corregir errores sin afectar directamente la rama <code>develop</code> o <code>main</code>.</p>
-<hr />
-<h2 id="ramas-para-documentacion">Ramas para documentación</h2>
-<p>Para los cambios relacionados con documentación se utilizaron ramas con el prefijo <code>doc/</code>.</p>
-<p>La nomenclatura utilizada fue:</p>
-<div class="highlight"><pre><span></span><code>doc/nombre-documentacion
-</code></pre></div>
-<p>Ejemplo:</p>
-<div class="highlight"><pre><span></span><code>doc/uso-git
-doc/documentacion-issues
-doc/actualizacion-readme
-</code></pre></div>
-<p>Esto permitió separar los cambios técnicos del código fuente de los cambios relacionados con documentación.</p>
-<hr />
-<h2 id="proceso-de-trabajo-aplicado">Proceso de trabajo aplicado</h2>
-<p>El proceso de trabajo seguido por el equipo fue el siguiente:</p>
+<p>El frontend queda disponible en <code>http://localhost:3000</code>.</p>
+<h3 id="librerias-clave-del-frontend">Librerías clave del frontend</h3>
+<table>
+<thead>
+<tr>
+<th>Librería</th>
+<th>Versión</th>
+<th>Uso</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>React</td>
+<td>18.x</td>
+<td>UI</td>
+</tr>
+<tr>
+<td>@dnd-kit/core</td>
+<td>6.x</td>
+<td>Drag-and-drop del armador de alineaciones</td>
+</tr>
+<tr>
+<td>Tailwind CSS</td>
+<td>3.x</td>
+<td>Estilos</td>
+</tr>
+<tr>
+<td>Leaflet + react-leaflet</td>
+<td>1.9.x / 4.x</td>
+<td>Mapa de canchas (OpenStreetMap)</td>
+</tr>
+<tr>
+<td>@stomp/stompjs + sockjs-client</td>
+<td>—</td>
+<td>Cliente WebSocket para notificaciones</td>
+</tr>
+<tr>
+<td>keycloak-js</td>
+<td>25.x</td>
+<td>Cliente de autenticación</td>
+</tr>
+</tbody>
+</table>
+<h2 id="5-verificacion-rapida">5. Verificación rápida</h2>
 <ol>
-<li>Se mantuvo la rama <code>main</code> como rama estable del proyecto.</li>
-<li>Se creó la rama <code>develop</code> a partir de <code>main</code>.</li>
-<li>Cada integrante trabajó sus tareas desde ramas creadas a partir de <code>develop</code>.</li>
-<li>Para cada historia de usuario se creó una rama con la nomenclatura <code>feat/hu-xx-nombre</code>.</li>
-<li>Para correcciones se utilizaron ramas con el prefijo <code>fix/</code>.</li>
-<li>Para documentación se utilizaron ramas con el prefijo <code>doc/</code>.</li>
-<li>Al finalizar una tarea, la rama se integraba nuevamente en <code>develop</code>.</li>
-<li>Cuando los cambios estaban completos y revisados, se integraban desde <code>develop</code> hacia <code>main</code>.</li>
+<li>Abre <code>http://localhost:3000</code> e inicia sesión con el usuario de prueba de Keycloak.</li>
+<li>Realiza una reserva en el mapa.</li>
+<li>Verifica en el panel de RabbitMQ (<code>http://localhost:15672</code>) que se publique un mensaje en la cola de notificaciones.</li>
+<li>Confirma que la notificación llega en tiempo real a la interfaz.</li>
 </ol>
-<hr />
-<h2 id="ejemplo-de-comandos-utilizados">Ejemplo de comandos utilizados</h2>
-<div class="highlight"><pre><span></span><code><span class="c1"># Cambiar a la rama principal</span>
-git<span class="w"> </span>checkout<span class="w"> </span>main
-
-<span class="c1"># Crear la rama develop desde main</span>
-git<span class="w"> </span>checkout<span class="w"> </span>-b<span class="w"> </span>develop
-
-<span class="c1"># Cambiar a develop</span>
-git<span class="w"> </span>checkout<span class="w"> </span>develop
-
-<span class="c1"># Crear una rama para una historia de usuario</span>
-git<span class="w"> </span>checkout<span class="w"> </span>-b<span class="w"> </span>feat/hu-01-inicio-sesion
-
-<span class="c1"># Agregar los cambios realizados</span>
-git<span class="w"> </span>add<span class="w"> </span>.
-
-<span class="c1"># Crear un commit</span>
-git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;feat: desarrollo de historia de usuario HU-01&quot;</span>
-
-<span class="c1"># Subir la rama al repositorio remoto</span>
-git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>feat/hu-01-inicio-sesion
-
-<span class="c1"># Regresar a develop</span>
-git<span class="w"> </span>checkout<span class="w"> </span>develop
-
-<span class="c1"># Integrar los cambios de la rama trabajada</span>
-git<span class="w"> </span>merge<span class="w"> </span>feat/hu-01-inicio-sesion
-
-<span class="c1"># Subir los cambios de develop</span>
-git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>develop
-</code></pre></div>
-<hr />
-<h2 id="relacion-entre-issues-y-ramas">Relación entre issues y ramas</h2>
-<p>Cada rama creada estuvo relacionada con un issue o historia de usuario del tablero de trabajo.</p>
-<p>Esto permitió mantener una trazabilidad clara entre la planificación del proyecto y el desarrollo realizado en el repositorio.</p>
-<p>Por ejemplo, si en el tablero existía una historia de usuario identificada como <code>HU-01</code>, la rama correspondiente se nombraba de la siguiente manera:</p>
-<div class="highlight"><pre><span></span><code>feat/hu-01-inicio-sesion
-</code></pre></div>
-<p>De esta forma, era más fácil identificar qué funcionalidad se estaba desarrollando y a qué tarea pertenecía dentro de la gestión del proyecto.</p>
-<hr />
-<h2 id="beneficios-del-flujo-utilizado">Beneficios del flujo utilizado</h2>
-<p>El uso de GitFlow permitió organizar mejor el trabajo del equipo y reducir el riesgo de errores en la rama principal.</p>
-<p>Entre los principales beneficios se encuentran:</p>
-<ul>
-<li>Separación entre código estable y código en desarrollo.</li>
-<li>Mejor control de los cambios realizados.</li>
-<li>Organización clara por historias de usuario, correcciones y documentación.</li>
-<li>Mayor trazabilidad entre issues y ramas.</li>
-<li>Facilidad para revisar e integrar cambios.</li>
-<li>Reducción del riesgo de afectar directamente la rama principal.</li>
-<li>Trabajo colaborativo más ordenado.</li>
-</ul>
-<hr />
-<h2 id="conclusion">Conclusión</h2>
-<p>La aplicación de GitFlow permitió mantener un proceso de desarrollo más estructurado y controlado.</p>
-<p>La creación de ramas específicas para historias de usuario, correcciones y documentación facilitó la organización del equipo, la revisión de cambios y la relación entre el tablero de issues y el código fuente del proyecto.</p>
-<p>Gracias a este flujo, el proyecto pudo desarrollarse de manera más ordenada, manteniendo una separación clara entre la versión estable, el desarrollo activo y las tareas individuales.</p>
+<h2 id="documentacion-de-la-api">Documentación de la API</h2>
+<p>El spec OpenAPI se genera automáticamente y se documenta en <a href="../api/">API Reference</a>.</p>
 
 
 
