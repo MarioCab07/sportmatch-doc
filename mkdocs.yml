@@ -1,0 +1,45 @@
+site_name: Documentacion SportMatch
+
+theme:
+  name: material
+  language: es
+
+  palette:
+    - scheme: slate
+      primary: deep orange
+      accent: cyan
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - content.tabs.link
+    - search.highlight
+    - search.suggest
+
+nav:
+  - Inicio: index.md
+  - Gestion de Proyecto:
+      - Uso de git: uso-git.md
+      - Historias de Usuario: historias-usuario.md
+  - Integraciones: integraciones.md
+
+markdown_extensions:
+  - tables
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_javascript:
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
