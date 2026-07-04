@@ -1,13 +1,26 @@
 site_name: Documentacion SportMatch
 
+plugins:
+  - render_swagger:
+      allow_arbitrary_urls: false
+
 theme:
   name: material
   language: es
 
   palette:
+    - scheme: default
+      primary: teal
+      accent: orange
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo oscuro
     - scheme: slate
       primary: deep orange
       accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo claro
 
   features:
     - navigation.tabs
@@ -20,6 +33,11 @@ theme:
 
 nav:
   - Inicio: index.md
+  - Instalacion: instalacion.md
+  - Guia Usuario: guia-usuario.md
+  - API:
+      - Notificaciones: notifications-api.md
+      - Gestion de Reservas: api.md
   - Gestion de Proyecto:
       - Uso de git: uso-git.md
       - Historias de Usuario: historias-usuario.md
